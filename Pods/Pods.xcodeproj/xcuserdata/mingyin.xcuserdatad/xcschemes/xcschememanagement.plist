@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GPUImage.xcscheme</key>
+		<key>Pods-VideoFilter.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-VideoFilter.xcscheme</key>
+		<key>Vivid.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1E6585D83501264CCB02DE3D24F12B8A</key>
+		<key>67131C9AD79915D5D736C75627B3B6C6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B73DDA48484B5C205D460D56876D6161</key>
+		<key>A50C76C0EC7766C21AE6639C7961FB3B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

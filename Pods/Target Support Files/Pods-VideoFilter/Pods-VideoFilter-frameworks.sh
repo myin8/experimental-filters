@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-VideoFilter/GPUImage.framework"
+  install_framework "Pods-VideoFilter/Vivid.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-VideoFilter/GPUImage.framework"
+  install_framework "Pods-VideoFilter/Vivid.framework"
 fi

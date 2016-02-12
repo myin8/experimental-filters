@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66520AB58C4C3737F4EC24D6 /* Pods_VideoFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC4153EC89EE1907308D579 /* Pods_VideoFilter.framework */; };
 		8494B1E21C6D1A5F003A3959 /* Video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8494B1D41C6D1A5F003A3959 /* Video1.mp4 */; };
 		8494B1E31C6D1A5F003A3959 /* Video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8494B1D51C6D1A5F003A3959 /* Video2.mp4 */; };
 		8494B1E41C6D1A5F003A3959 /* Video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8494B1D61C6D1A5F003A3959 /* Video3.mp4 */; };
@@ -31,27 +30,19 @@
 		849CA3081C6D0F920037D956 /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CA3071C6D0F920037D956 /* PlayVC.swift */; };
 		84D73ADD1C6D796F00827B87 /* Video15.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D73ADC1C6D796F00827B87 /* Video15.mp4 */; };
 		84D73ADF1C6D7D3700827B87 /* Video16.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84D73ADE1C6D7D3700827B87 /* Video16.mp4 */; };
-		E8A4F2611C6D83AB00F3D21C /* sierraVignette.png in Resources */ = {isa = PBXBuildFile; fileRef = E8A4F25E1C6D83AB00F3D21C /* sierraVignette.png */; };
-		E8A4F2621C6D83AB00F3D21C /* overlayMap.png in Resources */ = {isa = PBXBuildFile; fileRef = E8A4F25F1C6D83AB00F3D21C /* overlayMap.png */; };
-		E8A4F2631C6D83AB00F3D21C /* sierraMap.png in Resources */ = {isa = PBXBuildFile; fileRef = E8A4F2601C6D83AB00F3D21C /* sierraMap.png */; };
-		E8A4F2671C6DAA7000F3D21C /* MomoSierraFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A4F2661C6DAA7000F3D21C /* MomoSierraFilter.m */; };
+		89F12C80E0CCD6A490F9EBFC /* Pods_VideoFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FCA2375FA5A69DCB672500 /* Pods_VideoFilter.framework */; };
+		E819E5441C6E8A1F00DDC99C /* YUCIGreenBlueChannelOverlayBlend.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E819E53D1C6E8A1F00DDC99C /* YUCIGreenBlueChannelOverlayBlend.cikernel */; };
+		E819E5451C6E8A1F00DDC99C /* YUCIHighPass.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E819E53E1C6E8A1F00DDC99C /* YUCIHighPass.cikernel */; };
+		E819E5461C6E8A1F00DDC99C /* YUCIHighPass.m in Sources */ = {isa = PBXBuildFile; fileRef = E819E5401C6E8A1F00DDC99C /* YUCIHighPass.m */; };
+		E819E5471C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothing.m in Sources */ = {isa = PBXBuildFile; fileRef = E819E5421C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothing.m */; };
+		E819E5481C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothingMaskBoost.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E819E5431C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothingMaskBoost.cikernel */; };
+		E819E54A1C6E8A3600DDC99C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819E5491C6E8A3600DDC99C /* Extensions.swift */; };
+		E8EFF45F1C6E80B400F342AA /* sierraMap20.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EFF45E1C6E80B400F342AA /* sierraMap20.png */; };
+		E8EFF4621C6E80C200F342AA /* CoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EFF4601C6E80C200F342AA /* CoreImageView.swift */; };
+		E8EFF4631C6E80C200F342AA /* VideoSampleBufferSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EFF4611C6E80C200F342AA /* VideoSampleBufferSource.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		E8A4F25D1C6D838B00F3D21C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		50CE9FE33FEC7A5D6F9975C3 /* Pods-VideoFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoFilter.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoFilter/Pods-VideoFilter.release.xcconfig"; sourceTree = "<group>"; };
 		8494B1D41C6D1A5F003A3959 /* Video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video1.mp4; sourceTree = "<group>"; };
 		8494B1D51C6D1A5F003A3959 /* Video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video2.mp4; sourceTree = "<group>"; };
 		8494B1D61C6D1A5F003A3959 /* Video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video3.mp4; sourceTree = "<group>"; };
@@ -77,14 +68,21 @@
 		849CA3071C6D0F920037D956 /* PlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
 		84D73ADC1C6D796F00827B87 /* Video15.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video15.mp4; sourceTree = "<group>"; };
 		84D73ADE1C6D7D3700827B87 /* Video16.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video16.mp4; sourceTree = "<group>"; };
-		B2231F384891D35FAAE0F5FE /* Pods-VideoFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoFilter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoFilter/Pods-VideoFilter.debug.xcconfig"; sourceTree = "<group>"; };
-		E8A4F25E1C6D83AB00F3D21C /* sierraVignette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sierraVignette.png; sourceTree = "<group>"; };
-		E8A4F25F1C6D83AB00F3D21C /* overlayMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlayMap.png; sourceTree = "<group>"; };
-		E8A4F2601C6D83AB00F3D21C /* sierraMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sierraMap.png; sourceTree = "<group>"; };
-		E8A4F2651C6DAA7000F3D21C /* VideoFilter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoFilter-Bridging-Header.h"; sourceTree = "<group>"; };
-		E8A4F2661C6DAA7000F3D21C /* MomoSierraFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomoSierraFilter.m; sourceTree = "<group>"; };
-		E8A4F26A1C6DAA7F00F3D21C /* MomoSierraFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomoSierraFilter.h; sourceTree = "<group>"; };
-		ECC4153EC89EE1907308D579 /* Pods_VideoFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FCA2375FA5A69DCB672500 /* Pods_VideoFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB134FD1B3B9C5E735EF552F /* Pods-VideoFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoFilter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoFilter/Pods-VideoFilter.debug.xcconfig"; sourceTree = "<group>"; };
+		E2C55AD4C518F2F8A1984C5F /* Pods-VideoFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoFilter.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoFilter/Pods-VideoFilter.release.xcconfig"; sourceTree = "<group>"; };
+		E819E53C1C6E8A1E00DDC99C /* VideoFilter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoFilter-Bridging-Header.h"; sourceTree = "<group>"; };
+		E819E53D1C6E8A1F00DDC99C /* YUCIGreenBlueChannelOverlayBlend.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIGreenBlueChannelOverlayBlend.cikernel; sourceTree = "<group>"; };
+		E819E53E1C6E8A1F00DDC99C /* YUCIHighPass.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIHighPass.cikernel; sourceTree = "<group>"; };
+		E819E53F1C6E8A1F00DDC99C /* YUCIHighPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIHighPass.h; sourceTree = "<group>"; };
+		E819E5401C6E8A1F00DDC99C /* YUCIHighPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIHighPass.m; sourceTree = "<group>"; };
+		E819E5411C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIHighPassSkinSmoothing.h; sourceTree = "<group>"; };
+		E819E5421C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIHighPassSkinSmoothing.m; sourceTree = "<group>"; };
+		E819E5431C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothingMaskBoost.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIHighPassSkinSmoothingMaskBoost.cikernel; sourceTree = "<group>"; };
+		E819E5491C6E8A3600DDC99C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E8EFF45E1C6E80B400F342AA /* sierraMap20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sierraMap20.png; sourceTree = "<group>"; };
+		E8EFF4601C6E80C200F342AA /* CoreImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreImageView.swift; sourceTree = "<group>"; };
+		E8EFF4611C6E80C200F342AA /* VideoSampleBufferSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSampleBufferSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,23 +90,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66520AB58C4C3737F4EC24D6 /* Pods_VideoFilter.framework in Frameworks */,
+				89F12C80E0CCD6A490F9EBFC /* Pods_VideoFilter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		406BE1B8B99F5BA73DE115D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB134FD1B3B9C5E735EF552F /* Pods-VideoFilter.debug.xcconfig */,
+				E2C55AD4C518F2F8A1984C5F /* Pods-VideoFilter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		849CA2AC1C6D0E090037D956 = {
 			isa = PBXGroup;
 			children = (
-				E8A4F25E1C6D83AB00F3D21C /* sierraVignette.png */,
-				E8A4F25F1C6D83AB00F3D21C /* overlayMap.png */,
-				E8A4F2601C6D83AB00F3D21C /* sierraMap.png */,
 				849CA2B71C6D0E090037D956 /* VideoFilter */,
 				849CA2B61C6D0E090037D956 /* Products */,
-				ABD442B3FCA9B7BDBED55CF3 /* Pods */,
-				FF370ECDB9F37E431335FC96 /* Frameworks */,
+				406BE1B8B99F5BA73DE115D6 /* Pods */,
+				FEB60AAE04CDE8201A7E7F4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,7 +127,18 @@
 		849CA2B71C6D0E090037D956 /* VideoFilter */ = {
 			isa = PBXGroup;
 			children = (
+				E819E53D1C6E8A1F00DDC99C /* YUCIGreenBlueChannelOverlayBlend.cikernel */,
+				E819E53E1C6E8A1F00DDC99C /* YUCIHighPass.cikernel */,
+				E819E53F1C6E8A1F00DDC99C /* YUCIHighPass.h */,
+				E819E5401C6E8A1F00DDC99C /* YUCIHighPass.m */,
+				E819E5411C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothing.h */,
+				E819E5421C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothing.m */,
+				E819E5431C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothingMaskBoost.cikernel */,
+				E8EFF4601C6E80C200F342AA /* CoreImageView.swift */,
+				E8EFF4611C6E80C200F342AA /* VideoSampleBufferSource.swift */,
+				E8EFF45E1C6E80B400F342AA /* sierraMap20.png */,
 				849CA2B81C6D0E090037D956 /* AppDelegate.swift */,
+				E819E5491C6E8A3600DDC99C /* Extensions.swift */,
 				849CA2BC1C6D0E090037D956 /* Main.storyboard */,
 				849CA2C21C6D0E090037D956 /* Assets.xcassets */,
 				849CA2C41C6D0E090037D956 /* LaunchScreen.storyboard */,
@@ -147,26 +162,15 @@
 				849CA2BF1C6D0E090037D956 /* VideoFilter.xcdatamodeld */,
 				849CA2E91C6D0EA20037D956 /* TableViewController.swift */,
 				849CA3071C6D0F920037D956 /* PlayVC.swift */,
-				E8A4F2661C6DAA7000F3D21C /* MomoSierraFilter.m */,
-				E8A4F26A1C6DAA7F00F3D21C /* MomoSierraFilter.h */,
-				E8A4F2651C6DAA7000F3D21C /* VideoFilter-Bridging-Header.h */,
+				E819E53C1C6E8A1E00DDC99C /* VideoFilter-Bridging-Header.h */,
 			);
 			path = VideoFilter;
 			sourceTree = "<group>";
 		};
-		ABD442B3FCA9B7BDBED55CF3 /* Pods */ = {
+		FEB60AAE04CDE8201A7E7F4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B2231F384891D35FAAE0F5FE /* Pods-VideoFilter.debug.xcconfig */,
-				50CE9FE33FEC7A5D6F9975C3 /* Pods-VideoFilter.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FF370ECDB9F37E431335FC96 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ECC4153EC89EE1907308D579 /* Pods_VideoFilter.framework */,
+				B4FCA2375FA5A69DCB672500 /* Pods_VideoFilter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,13 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849CA2CA1C6D0E090037D956 /* Build configuration list for PBXNativeTarget "VideoFilter" */;
 			buildPhases = (
-				E341ABB1BAF45D938E6AEED9 /* Check Pods Manifest.lock */,
+				69B648574859BA4188B8609E /* Check Pods Manifest.lock */,
 				849CA2B11C6D0E090037D956 /* Sources */,
 				849CA2B21C6D0E090037D956 /* Frameworks */,
 				849CA2B31C6D0E090037D956 /* Resources */,
-				E8A4F25D1C6D838B00F3D21C /* Embed Frameworks */,
-				C8B3114D1BF753387C2FC2C1 /* Embed Pods Frameworks */,
-				CA2460D50F07049442841DAF /* Copy Pods Resources */,
+				26E220160FB5B1B0E3CD9C2C /* Embed Pods Frameworks */,
+				712A37747A643C5D7E3A63BF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849CA2C61C6D0E090037D956 /* LaunchScreen.storyboard in Resources */,
+				E819E5451C6E8A1F00DDC99C /* YUCIHighPass.cikernel in Resources */,
 				84D73ADD1C6D796F00827B87 /* Video15.mp4 in Resources */,
 				8494B1E21C6D1A5F003A3959 /* Video1.mp4 in Resources */,
 				8494B1E51C6D1A5F003A3959 /* Video4.mp4 in Resources */,
@@ -241,27 +245,27 @@
 				8494B1E91C6D1A5F003A3959 /* Video8.mp4 in Resources */,
 				8494B1EE1C6D1A5F003A3959 /* Video13.mp4 in Resources */,
 				8494B1E31C6D1A5F003A3959 /* Video2.mp4 in Resources */,
+				E8EFF45F1C6E80B400F342AA /* sierraMap20.png in Resources */,
 				8494B1EA1C6D1A5F003A3959 /* Video9.mp4 in Resources */,
-				E8A4F2611C6D83AB00F3D21C /* sierraVignette.png in Resources */,
 				849CA2C31C6D0E090037D956 /* Assets.xcassets in Resources */,
 				8494B1E71C6D1A5F003A3959 /* Video6.mp4 in Resources */,
 				8494B1EB1C6D1A5F003A3959 /* Video10.mp4 in Resources */,
+				E819E5481C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothingMaskBoost.cikernel in Resources */,
+				E819E5441C6E8A1F00DDC99C /* YUCIGreenBlueChannelOverlayBlend.cikernel in Resources */,
 				84D73ADF1C6D7D3700827B87 /* Video16.mp4 in Resources */,
 				8494B1ED1C6D1A5F003A3959 /* Video12.mp4 in Resources */,
 				8494B1E61C6D1A5F003A3959 /* Video5.mp4 in Resources */,
-				E8A4F2631C6D83AB00F3D21C /* sierraMap.png in Resources */,
 				8494B1E81C6D1A5F003A3959 /* Video7.mp4 in Resources */,
 				8494B1EF1C6D1A5F003A3959 /* Video14.mp4 in Resources */,
 				849CA2BE1C6D0E090037D956 /* Main.storyboard in Resources */,
 				8494B1E41C6D1A5F003A3959 /* Video3.mp4 in Resources */,
-				E8A4F2621C6D83AB00F3D21C /* overlayMap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C8B3114D1BF753387C2FC2C1 /* Embed Pods Frameworks */ = {
+		26E220160FB5B1B0E3CD9C2C /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,22 +280,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoFilter/Pods-VideoFilter-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CA2460D50F07049442841DAF /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoFilter/Pods-VideoFilter-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E341ABB1BAF45D938E6AEED9 /* Check Pods Manifest.lock */ = {
+		69B648574859BA4188B8609E /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,6 +295,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		712A37747A643C5D7E3A63BF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoFilter/Pods-VideoFilter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -313,11 +317,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EFF4631C6E80C200F342AA /* VideoSampleBufferSource.swift in Sources */,
+				E819E54A1C6E8A3600DDC99C /* Extensions.swift in Sources */,
+				E8EFF4621C6E80C200F342AA /* CoreImageView.swift in Sources */,
 				849CA2C11C6D0E090037D956 /* VideoFilter.xcdatamodeld in Sources */,
 				849CA3081C6D0F920037D956 /* PlayVC.swift in Sources */,
+				E819E5471C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothing.m in Sources */,
 				849CA2B91C6D0E090037D956 /* AppDelegate.swift in Sources */,
-				E8A4F2671C6DAA7000F3D21C /* MomoSierraFilter.m in Sources */,
 				849CA2EA1C6D0EA20037D956 /* TableViewController.swift in Sources */,
+				E819E5461C6E8A1F00DDC99C /* YUCIHighPass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,15 +436,13 @@
 		};
 		849CA2CB1C6D0E090037D956 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2231F384891D35FAAE0F5FE /* Pods-VideoFilter.debug.xcconfig */;
+			baseConfigurationReference = BB134FD1B3B9C5E735EF552F /* Pods-VideoFilter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				HEADER_SEARCH_PATHS = "$(PODS_ROOT)/Headers/**";
 				INFOPLIST_FILE = VideoFilter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = memtimen.VideoFilter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VideoFilter/VideoFilter-Bridging-Header.h";
@@ -446,15 +452,13 @@
 		};
 		849CA2CC1C6D0E090037D956 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50CE9FE33FEC7A5D6F9975C3 /* Pods-VideoFilter.release.xcconfig */;
+			baseConfigurationReference = E2C55AD4C518F2F8A1984C5F /* Pods-VideoFilter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				HEADER_SEARCH_PATHS = "$(PODS_ROOT)/Headers/**";
 				INFOPLIST_FILE = VideoFilter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = memtimen.VideoFilter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VideoFilter/VideoFilter-Bridging-Header.h";

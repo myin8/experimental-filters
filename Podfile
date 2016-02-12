@@ -4,6 +4,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'VideoFilter' do
-pod 'GPUImage', :git => 'https://github.com/BradLarson/GPUImage.git'
+#pod 'GPUImage', :git => 'https://github.com/BradLarson/GPUImage.git'W
+pod 'Vivid'
 end
 
