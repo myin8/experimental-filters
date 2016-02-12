@@ -12,6 +12,7 @@ class TableViewController: UITableViewController {
     var dataArray = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        dataArray.append("Camera")
 
         for i:Int in 1...16 {
             dataArray.append("Video\(i)")
@@ -41,20 +42,20 @@ class TableViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let fileName = dataArray[indexPath.row] as String
-        let videoUrl = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(fileName, ofType: "mp4")!)
-        performSegueWithIdentifier("segue Play Video", sender: videoUrl)
+        performSegueWithIdentifier("segue Play Video", sender: dataArray[indexPath.row] as String)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        guard let url = sender as? NSURL else {
-            return
-        }
         if segue.identifier == "segue Play Video" {
             if let playVC = segue.destinationViewController as? PlayVC {
-                playVC.videoUrl = url
+                
+                if sender as! String != "Camera" {
+                    let videoUrl = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(sender as? String, ofType: "mp4")!)
+                    playVC.videoUrl = videoUrl
+                }
             }
         }
+            
     }
     
     override func prefersStatusBarHidden() -> Bool {

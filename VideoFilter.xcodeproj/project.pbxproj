@@ -37,6 +37,7 @@
 		E819E5471C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothing.m in Sources */ = {isa = PBXBuildFile; fileRef = E819E5421C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothing.m */; };
 		E819E5481C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothingMaskBoost.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = E819E5431C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothingMaskBoost.cikernel */; };
 		E819E54A1C6E8A3600DDC99C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819E5491C6E8A3600DDC99C /* Extensions.swift */; };
+		E819E54C1C6E9B4A00DDC99C /* MingFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819E54B1C6E9B4A00DDC99C /* MingFilter.swift */; };
 		E8EFF45F1C6E80B400F342AA /* sierraMap20.png in Resources */ = {isa = PBXBuildFile; fileRef = E8EFF45E1C6E80B400F342AA /* sierraMap20.png */; };
 		E8EFF4621C6E80C200F342AA /* CoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EFF4601C6E80C200F342AA /* CoreImageView.swift */; };
 		E8EFF4631C6E80C200F342AA /* VideoSampleBufferSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EFF4611C6E80C200F342AA /* VideoSampleBufferSource.swift */; };
@@ -80,6 +81,7 @@
 		E819E5421C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIHighPassSkinSmoothing.m; sourceTree = "<group>"; };
 		E819E5431C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothingMaskBoost.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIHighPassSkinSmoothingMaskBoost.cikernel; sourceTree = "<group>"; };
 		E819E5491C6E8A3600DDC99C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E819E54B1C6E9B4A00DDC99C /* MingFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MingFilter.swift; sourceTree = "<group>"; };
 		E8EFF45E1C6E80B400F342AA /* sierraMap20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sierraMap20.png; sourceTree = "<group>"; };
 		E8EFF4601C6E80C200F342AA /* CoreImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreImageView.swift; sourceTree = "<group>"; };
 		E8EFF4611C6E80C200F342AA /* VideoSampleBufferSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSampleBufferSource.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				849CA2C71C6D0E090037D956 /* Info.plist */,
 				849CA2BF1C6D0E090037D956 /* VideoFilter.xcdatamodeld */,
 				849CA2E91C6D0EA20037D956 /* TableViewController.swift */,
+				E819E54B1C6E9B4A00DDC99C /* MingFilter.swift */,
 				849CA3071C6D0F920037D956 /* PlayVC.swift */,
 				E819E53C1C6E8A1E00DDC99C /* VideoFilter-Bridging-Header.h */,
 			);
@@ -325,6 +328,7 @@
 				E819E5471C6E8A1F00DDC99C /* YUCIHighPassSkinSmoothing.m in Sources */,
 				849CA2B91C6D0E090037D956 /* AppDelegate.swift in Sources */,
 				849CA2EA1C6D0EA20037D956 /* TableViewController.swift in Sources */,
+				E819E54C1C6E9B4A00DDC99C /* MingFilter.swift in Sources */,
 				E819E5461C6E8A1F00DDC99C /* YUCIHighPass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
